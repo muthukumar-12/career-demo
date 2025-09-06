@@ -1,12 +1,12 @@
-export default function Header() {
+import React from "react";
+
+const Header = () => {
   return (
-    <header className="bg-white shadow p-4 flex justify-between items-center">
-      <h1 className="text-2xl font-bold text-blue-600">MyCompany</h1>
-      <nav className="space-x-4">
-        <a href="/home" className="text-gray-700 hover:text-blue-600">Home</a>
-        <a href="/career" className="text-gray-700 hover:text-blue-600">Careers</a>
-        <a href="/about" className="text-gray-700 hover:text-blue-600">About</a>
-      </nav>
-    </header>
+    <div className="w-full bg-white text-white p-4 shadow flex justify-between items-center">
+      <h1 className="text-xl font-bold"></h1>
+      <button className="px-4 py-2 border rounded-lg bg-blue-400 hover:bg-blue-500 ">Logout</button>
+    </div>
   );
-}
+};
+
+export default Header;

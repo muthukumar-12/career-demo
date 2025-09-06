@@ -1,14 +1,13 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import CareerPage from "./pages/CareerPage";
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import Admin from "./pages/Admin";
+ 
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <CareerPage />
-      <Footer />
-    </div>
+    <BrowserRouter>
+    <Admin></Admin>  
+    </BrowserRouter>
   );
 }
 
