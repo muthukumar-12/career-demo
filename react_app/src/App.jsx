@@ -8,7 +8,7 @@ import CareerPage from "./pages/CareerPage";
 function App() {
   return (
     <BrowserRouter>
-     <CareerPage></CareerPage>
+     <Admin></Admin>
     </BrowserRouter>
   );
 }
